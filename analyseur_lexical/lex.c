@@ -1,5 +1,5 @@
 /**
- * \file tp2_lex.c
+ * \file lex.c
  * \brief analyseur lexical pour le langage JSON
  * \author NM
  * \version 0.1
