@@ -1,5 +1,5 @@
 /*
- * \file tp3_a.c
+ * \file syntax.c
  * \brief programme qui renvoie 1 si la chaine passée en argument suit bien la grammaire JSon et 0 sinon.
  *        Nous n'avons pas réussi à analyser la chaine "#######..." L'analyseur syntaxique considère
  *        cette chaine comme une source d'erreur.    
@@ -18,7 +18,7 @@
 #include "pile.h"
 #include "json_tree.h"
 #include "pile.c"
-#include "tp2_lex.c"
+#include "lex.c"
 
 #define ACCEPTATION 1
 #define ERREUR -1
